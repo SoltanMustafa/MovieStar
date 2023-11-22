@@ -1,0 +1,58 @@
+.fw-container-fluid {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.fw-row {
+  color: #717171;
+}
+.fw-col-xs-12 {
+  position: relative;
+  min-height: 1px;
+}
+#hero {
+  overflow: hidden;
+  min-height: 600px;
+  position: relative;
+}
+#hero .container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  margin: auto;
+  transform: none;
+  align-items: center;
+  justify-content: center;
+}
+.scroll {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 50%;
+  margin-left: -45px;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+  width: 100%;
+  margin-left: 30px;
+  text-align: left;
+  z-index: 15;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  margin: 0 8px 0 0;
+  border: solid 2px #fff;
+  cursor: pointer;
+  border-radius: 10px;
+}

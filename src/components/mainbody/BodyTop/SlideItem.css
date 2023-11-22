@@ -1,0 +1,43 @@
+.item {
+  background-image: url(https://xenothemes.co.uk/specto/wp-content/uploads/sites/2/2018/03/hero.jpg);
+  padding-top: 114px;
+  height: 100%;
+  min-height: 600px;
+  text-align: center;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.row.blurb {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  text-align: left;
+}
+span.title {
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #fbbd61;
+  text-align: left;
+}
+.blurb h1 {
+  font-size: 52px;
+  font-weight: 300;
+  padding: 0;
+  letter-spacing: 3px;
+  opacity: 1;
+  color: #fff;
+  border: none;
+  line-height: 1.4em;
+  position: relative;
+  margin: 0 0 10px 0;
+}
+.blurb p {
+  font-size: 18px;
+  color: #fff;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
